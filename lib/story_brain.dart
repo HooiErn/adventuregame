@@ -1,6 +1,4 @@
-//TODO: Step 6 - import the story.dart file into this file.
-//TODO: Step 5 - Create a new class called StoryBrain.
-//TODO: Step 7 - Uncomment the lines below to include storyData as a private property in StoryBrain. Hint: You might need to change something in story.dart to make this work.
+
 import 'story.dart';
 class StoryBrain {
   int _storyNumber = 0;// keeps track of the current story the player is on.
@@ -81,6 +79,10 @@ class StoryBrain {
     return _storyNumber == 0 || _storyNumber == 1 || _storyNumber == 2;
   }
 }
+
+//TODO: Step 6 - import the story.dart file into this file.
+//TODO: Step 5 - Create a new class called StoryBrain.
+//TODO: Step 7 - Uncomment the lines below to include storyData as a private property in StoryBrain. Hint: You might need to change something in story.dart to make this work.
 //TODO: Step 16 - Create a property called storyNumber which starts with a value of 0. This will be used to track which story the user is currently viewing.
 //TODO: Step 8 - Create a method called getStory() that returns the first storyTitle from _storyData.
 //TODO: Step 11 - Create a method called getChoice1() that returns the text for the first choice1 from _storyData.
