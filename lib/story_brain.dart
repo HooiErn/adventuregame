@@ -71,6 +71,7 @@ class StoryBrain {
 // sets the _storyNumber back to 0 to restart the game.
   void restart() {
     _storyNumber = 0;
+    print("It's the end of the story, restart the game...");
   }
 
 // determines if the choice buttons should be visible or not.
